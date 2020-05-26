@@ -1,3 +1,21 @@
+#include <stdio.h>
+
+int main(){
+    printf("O seguinte programa mostra qual o mês do ano que você digitou e quantidade de dias do mesmo.\n");
+    
+    int mes = 0;
+    scanf("%d", &mes);
+
+    switch (mes)
+    {
+    case 1:
+        printf("Janeiro - 31 dias\n");
+        break;
+    case 2:
+        printf("Fevereiro - 28 dias\n");
+        break;
+    case 3:
+        printf("Março - 31 dias\n");
         break;
     case 4:
         printf("Abril - 30 dias\n");
